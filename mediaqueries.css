@@ -1,4 +1,5 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1600px) {
+  
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -9,6 +10,12 @@
   #contact,
   #projects {
     height: fit-content;
+  }
+
+  .btn-container {
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
   }
 }
 
@@ -38,12 +45,22 @@
     margin: 0 5%;
   }
   .section__pic-container {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: end;
+    justify-self: end;
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
+  }
+
+  .btn-container {
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
   }
 }
 
@@ -87,7 +104,11 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: end;
+    justify-self: end;
+    width:min-content;
     height: 46vw;
     justify-content: center;
   }
@@ -99,5 +120,11 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .btn-container {
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
   }
 }

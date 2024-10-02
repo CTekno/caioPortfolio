@@ -4,24 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Caio.M.Taparo</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li>•</li>
+          <li><a href="#experience">Habilidades</a></li>
+          <li>•</li>
+          <li><a href="#projects">Projetos</a></li>
+          <li>•</li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -29,30 +32,30 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      <div class="section__pic-container" style="display: flex;">
+        <img src="./assets/cde.jpeg" alt="Imagem de Perfil" style="border-radius: 2rem; outline:auto; outline-color: black;"/>
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p1">Olá, eu sou</p>
+        <h1 class="title">Caio Taparo</h1>
+        <p class="section__text__p2">Fullstack Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/CV - CAIO MARTINS Taparo.pdf')"
           >
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
+            Contato
           </button>
         </div>
         <div id="socials-container">
@@ -60,28 +63,21 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/caiotaparo/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/CTekno'"
           />
         </div>
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1">Saiba mais</p>
+      <h1 class="title">Sobre mim</h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -90,27 +86,32 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <h3>Experiência em Atendimento ao Cliente</h3>
+              <p>1 ano <br />Atendimento e Auxiliar geral</p>
             </div>
             <div class="details-container">
               <img
-                src="./assets/education.png"
-                alt="Education icon"
+                src="./assets/livro.webp"
+                alt="estudos"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p>FATEC Mogi Mirim<br />Cursando, até 08/2025</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+Olá, meu nome é Caio. Sou estudante de Análise e Desenvolvimento de Sistemas na FATEC Mogi Mirim, 
+me formo em agosto de 2025, e tenho paixão por desenvolver soluções inovadoras e práticas através da programação.<br><br>
+
+Adquiri importantes soft skills ao trabalhar como Atendente e Auxiliar de Restaurante.
+Nessa função, desenvolvi habilidades como comunicação, resolução de problemas, trabalho em equipe, 
+raciocínio rápido, proatividade, logística, adaptabilidade, cortesia, atenção e organização. Minha experiência 
+inclui o tratamento de notas fiscais e movimentações financeiras, gestão de estoque e produtos, 
+além do suporte e atendimento ao cliente.<br><br>
+Te conto um pouco mais sobre minhas habilidades técnicas abaixo!
+
+
             </p>
           </div>
         </div>
@@ -123,13 +124,13 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <p class="section__text__p1">Explore minhas</p>
+      <h1 class="title">Habilidades</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -137,10 +138,11 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Excel + VBA</h3>
+                  <p>Avançado</p>
                 </div>
               </article>
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -148,10 +150,11 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>SQL</h3>
+                  <p>Avançado</p>
                 </div>
               </article>
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -159,10 +162,24 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>MySQL</h3>
+                  <p>Avançado</p>
                 </div>
               </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Office</h3>
+                  <p>Avançado</p>
+                </div>
+              </article>
+
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -171,45 +188,7 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -220,9 +199,33 @@
                 />
                 <div>
                   <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <p>Intermediário</p>
                 </div>
               </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML5</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -231,9 +234,115 @@
                 />
                 <div>
                   <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <p>Intermediário</p>
                 </div>
               </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+
+
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="article-container">
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OpenCV</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Orange D.M</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -242,9 +351,34 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Básico</p>
                 </div>
               </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Numpy</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SpringBoot</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+
             </div>
           </div>
         </div>
@@ -257,67 +391,141 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <p class="section__text__p1">De uma olhada em</p>
+      <h1 class="title">Projetos</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/attorney.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Portfolio Responsivo</h2>
             <div class="btn-container">
+              
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="port()"
               >
                 Live Demo
               </button>
+
+              <button
+              class="btn btn-color-2 project-btn" onclick="abc('modal4')">
+              Info
+            </button>
+
+            <dialog id="modal4">
+              <p style="padding: 2rem; text-align:justify;">
+
+                Portfolio Reponsivo de Advocacia criado para um cliente e amigo. <br><br> Para sua criação foi utilizado: JavaScript; 
+                HTML; CSS; Bootstrap; Mobirise.
+              </p>
+              <button style="margin: 2rem; font-size: 14px;" class="btn btn-color-2 project-btn" onclick="closemodal('modal4')">Sair</button>  
+            </dialog>
+
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/estoque.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Estoque Rápido</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/CTekno/JAVASCRIPT-NODE'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="estrpd()"
               >
                 Live Demo
               </button>
+
+              <button
+              class="btn btn-color-2 project-btn" onclick="abc('modal3')">
+              Info
+            </button>
+
+            <dialog id="modal3">
+              <p style="padding: 2rem; text-align:justify;">
+
+                O Estoque Rápido é um projeto prático de controle de estoque desenvolvido utilizando JavaScript, HTML, CSS e 
+                Bootstrap, com integração a bancos de dados MySQL e Supabase. <br> <br>
+                A aplicação permite o cadastro de usuários com login e senha, que ficam armazenados de forma segura na nuvem. <br><br>
+                Ideal para pequenos negócios que precisam de uma solução rápida e eficiente para gerenciar o estoque.
+              </p>
+              <button style="margin: 2rem; font-size: 14px;" class="btn btn-color-2 project-btn" onclick="closemodal('modal3')">Sair</button>  
+            </dialog>
+
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/jogodv.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Jogo da Velha</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/CTekno/jogodavelha2'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="jdv()"
+              >
+                Jogar
+              </button>
+
+            <button
+              class="btn btn-color-2 project-btn" style="font-size: 14px;" onclick="abc('modal1')">Info
+            </button>
+
+            <dialog id="modal1">
+              <p style="padding: 2rem; text-align:justify;"> 
+                
+                🎮 Criado por Caio Martins Taparo - Março de 2024 <br><br>
+                
+                O Jogo da Velha 2 é uma variante inovadora do clássico jogo da velha, 
+                trazendo uma nova camada de estratégia e diversão. 
+                Neste jogo, as peças podem sobrepor outras já colocadas no tabuleiro, 
+                criando uma dinâmica mais complexa e desafiadora. 
+                Para jogar, basta selecionar a peça desejada e clicar na posição escolhida. <br><br>
+                
+                Este projeto foi desenvolvido utilizando as seguintes tecnologias: <br><br>
+                
+                JavaScript; HTML; CSS <br><br>
+                Experimente agora: jogodavelha2.vercel.app</p>
+              <button style="margin: 2rem; font-size: 14px;" class="btn btn-color-2 project-btn" onclick="closemodal('modal1')">Sair</button>
+            </dialog>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/xlms.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Planilha + VBA</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -327,12 +535,35 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('./assets/Planilha de Administração.xlsm')"
               >
-                Live Demo
+                Download
               </button>
+
+              <button
+              class="btn btn-color-2 project-btn" style="font-size: 14px;" onclick="abc('modal2')">Info
+              </button>
+              
+              <dialog id="modal2">
+                <p style="padding: 2rem; text-align:justify;">
+
+                  Esta planilha Excel com macros no formato .xlsm foi criada para otimizar a 
+                  gestão administrativa de uma distribuidora de leite. 
+                  Através das funcionalidades automatizadas, a planilha permite: <br><br>
+
+                  > Registro automático de novos fornecedores;<br><br>
+                  > Controle de novas compras com registro detalhado;<br><br>
+                  > Geração de relatórios por fornecedor, oferecendo visões claras de desempenho;<br><br>
+                  > Relatórios de tempo e tipo de leite, permitindo uma análise estratégica dos produtos;<br><br>
+                  > Registro integrado de fornecedores e compras, facilitando o acesso e o controle de dados.<br><br>
+                  Este recurso é ideal para agilizar processos, reduzir erros manuais e melhorar a eficiência da administração da distribuidora.
+                  Caso tenha problemas com o Download, confira o repositório no Github.
+                </p>
+                <button style="margin: 2rem; font-size: 14px;" class="btn btn-color-2 project-btn" onclick="closemodal('modal2')">Sair</button>  
+              </dialog>
             </div>
           </div>
+
         </div>
       </div>
       <img
@@ -342,9 +573,9 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <p class="section__text__p1" style="padding-top: 15rem;">Entre em</p>
+    <h1 class="title">Contato</h1>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -352,7 +583,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">caio.m.taparo@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,22 +591,36 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/caiotaparo">LinkedIn/caiotaparo</a></p>
         </div>
       </div>
+
+      <div class="arrow-container2">
+        <img
+          src="./assets/uparrow.png"
+          alt="Volta ao Topo"
+          class="icon"
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        />
+      </div>
+
     </section>
     <footer>
+        </div>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li>•</li>
+            <li><a href="#experience">Habilidades</a></li>
+            <li>•</li>
+            <li><a href="#projects">Projetos</a></li>
+            <li>•</li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p style="font-style: italic;">... E todo aquele que vem a Mim, de modo algum o rejeitarei  -  João 6:37</p>
     </footer>
     <script src="script.js"></script>
   </body>

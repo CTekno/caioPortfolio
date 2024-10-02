@@ -34,7 +34,7 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 17vh;
 }
@@ -170,9 +170,11 @@ section {
 }
 
 .section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
+  justify-content: center;
+  display:inline-flex;
+  left: 300px;
+  height: 365px;
+  width: 365px;
   margin: auto 0;
 }
 
@@ -213,10 +215,11 @@ section {
   height: 2rem;
 }
 
+
 /* BUTTONS */
 
 .btn-container {
-  display: flex;
+  display:grid;
   justify-content: center;
   gap: 1rem;
 }
@@ -268,9 +271,11 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 1.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2 rem;
 }
 
 .about-details-container {
@@ -281,10 +286,6 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
-}
-
-.about-pic {
-  border-radius: 2rem;
 }
 
 .arrow {
@@ -309,8 +310,9 @@ section {
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  justify-content: center;
+  height: 365x;
+  width: 365px;
   margin: auto 0;
 }
 
@@ -345,8 +347,8 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  justify-content:flex-start;
+  gap: 1rem;
 }
 
 article .icon {
@@ -357,6 +359,7 @@ article .icon {
 
 #projects {
   position: relative;
+  justify-content: center;
 }
 
 .color-container {
@@ -384,9 +387,12 @@ article .icon {
 
 #contact {
   display: flex;
-  justify-content: center;
+  justify-content: top;
   flex-direction: column;
-  height: 70vh;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  min-height: 300px;
+  height: 90vh;
 }
 
 .contact-info-upper-container {
@@ -429,4 +435,25 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+dialog::backdrop {
+  background-color: (0 0 0 / .2);
+}
+
+dialog {
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  border: none;
+  border-radius: 1rem;
+  width: 60%;
+  box-shadow: 0 0 1rem (0 0 0 / .3);
+
+}
+
+.arrow-container2 {
+  justify-content: flex-end;
+  display:flex;
 }
